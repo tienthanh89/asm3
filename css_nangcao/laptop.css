@@ -1,0 +1,26 @@
+.nangcao {
+  border: 5px solid #dadada;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.timeline {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+.project-chapter {
+  gap: 10px;
+  border: 10px solid #2e00fc;
+  background-color: #2e00fc;
+}
+
+.project-chapter > div {
+  background-color: #f1f8ff;
+}
